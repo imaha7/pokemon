@@ -2,6 +2,8 @@
 
 ## Tokopedia Software Engineer - Web Platform Submission Form
 
+Access to my public deployment : https://imaha7.github.io/
+
 In the project directory, you can run:
 
 ## npm cache clean --force (Optional)
