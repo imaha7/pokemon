@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { PokemonConsumer } from './Pokemon-Context';
-import Swal from 'sweetalert2';
 
 import {
     Container,
@@ -38,45 +37,7 @@ class PokemonDetail extends Component {
     }
 
     render() {
-        const { name, pokemon_details, nickname } = this.state;
-
-        function catchPokemon() {
-            if (Math.random() * 10 > 5) {
-                Swal.fire({
-                    title: 'Good Job!',
-                    text: "You caught " + name + ". Please Enter A Nickname For This Pokemon",
-                    input: 'text',
-                    inputValue: '',
-                    inputPlaceholder: 'Enter your new pokemon nickname',
-                    showCancelButton: true,
-                    inputValidator: (val) => {
-                        if (!val) {
-                            return 'You need to fill nickname!'
-                        }
-                    }
-                }).then((result) => {
-                    if (result.value) {
-                        Swal.fire({
-                            icon: 'error',
-                            title: "Sorry!",
-                            text: "Catch " + result.value + " Failed. Please Try Again",
-                            showConfirmButton: false,
-                            timer: 1500
-                        });
-                        return result.value;
-                    }
-                });
-            } else {
-                Swal.fire({
-                    icon: 'error',
-                    title: "Sorry!",
-                    text: "Catch " + name + " Failed. Please Try Again",
-                    showConfirmButton: false,
-                    timer: 1500
-                });
-                return false;
-            }
-        }
+        const { name, pokemon_details} = this.state;
 
         return (
             <PokemonConsumer>
