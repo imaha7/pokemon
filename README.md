@@ -2,6 +2,8 @@
 
 ## Sprout Digital Labs Frontend Engineer - Web Platform Technical Test
 
+Access to my public deployment : https://imaha7.github.io/
+
 In the project directory, you can run:
 
 ## npm cache clean --force (Optional)
