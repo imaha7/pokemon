@@ -18,24 +18,23 @@ class Home extends Component {
                 src="/pokemon_logo.png"
                 className="w-100"
                 alt={"Logo " + process.env.REACT_APP_TITLE}
-              />{" "}
-            </Col>{" "}
-          </Row>{" "}
+              />
+            </Col>
+          </Row>
           <Row className="my-5 text-center">
             <Col>
               <Jumbotron>
-                <h1 className="display-4 text-light"> Welcome to Pokemon </h1>{" "}
+                <h1 className="display-4 text-light"> Welcome to Pokemon </h1>
                 <h2 className="lead text-light">
                   Project Assignment <br />
-                  Web Platform Engineers - Sprout Digital Labs{" "}
-                </h2>{" "}
+                  Web Platform Engineers - Sprout Digital Labs
+                </h2>
                 <p className="text-light" style={{ fontWeight: "bold" }}>
-                  {" "}
-                  Created by {process.env.REACT_APP_CREATOR}{" "}
-                </p>{" "}
-              </Jumbotron>{" "}
-            </Col>{" "}
-          </Row>{" "}
+                  Created by {process.env.REACT_APP_CREATOR}
+                </p>
+              </Jumbotron>
+            </Col>
+          </Row>
           <Row className="my-5 justify-content-center">
             <Col md={{ size: 4 }} xl={{ size: 4 }}>
               <Link to="/pokemon-list">
@@ -48,19 +47,17 @@ class Home extends Component {
                     fontWeight: "bold",
                   }}
                 >
-                  {" "}
                   <i
                     class="fa-solid fa-gamepad"
                     style={{ marginRight: "12px" }}
                   >
-                    {" "}
                   </i>
-                  Catch Pokemon Now{" "}
-                </Button>{" "}
-              </Link>{" "}
-            </Col>{" "}
-          </Row>{" "}
-        </Container>{" "}
+                  Catch Pokemon Now
+                </Button>
+              </Link>
+            </Col>
+          </Row>
+        </Container>
       </Container>
     );
   }
