@@ -2,7 +2,7 @@
 
 ## Sprout Digital Labs Frontend Engineer - Web Platform Technical Test
 
-Access to my public deployment : https://imaha7.github.io/
+You can try live [here](https://pokemon.vercel.app)
 
 In the project directory, you can run:
 
@@ -37,10 +37,6 @@ Your app is ready to be deployed!
 
 See the section about deployment for more information.
 
-## Demo Link
-
-you can try live [here](https://pokemon.vercel.app)
-
 ## Project Assignment
 
 ## Web Platform Engineers - Sprout Digital Labs
@@ -51,8 +47,7 @@ Requirements:
    App, or your own starter template) that has 3 pages, Pokemon List, Pokemon
    Detail, and My Pokemon List. Your web app UI/UX should be mobile-first &
    single page application (SPA) and follow requirements listed below.
-2. You can use Rest-API from https://pokeapi.co/ as your data source. But using
-   GraphQL (graphql-pokeapi) is a big plus.
+2. You can use Rest-API from https://pokeapi.co/ as your data source.
 3. Pokemon List page; should show a list of Pokemons’ names and the owned
    total. When a Pokemon is clicked, it should go to that Pokemon Detail page.
 4. Pokemon Detail page; should show a picture of the Pokemon with its moves
