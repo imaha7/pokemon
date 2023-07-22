@@ -31,7 +31,7 @@ class Home extends Component {
                 </h2>{" "}
                 <p className="text-light" style={{ fontWeight: "bold" }}>
                   {" "}
-                  Created by Spro {process.env.REACT_APP_CREATOR}{" "}
+                  Created by {process.env.REACT_APP_CREATOR}{" "}
                 </p>{" "}
               </Jumbotron>{" "}
             </Col>{" "}
