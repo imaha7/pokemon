@@ -2,7 +2,7 @@
 
 ## Sprout Digital Labs Frontend Engineer - Web Platform Technical Test
 
-You can try live [here](https://pokemon.vercel.app)
+You can try live [here](https://pokemon-imaha7.vercel.app)
 
 In the project directory, you can run:
 
